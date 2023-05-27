@@ -670,7 +670,7 @@
                     </p><p class="sub-header"><h1>请进行人机验证以访问<span id="domainName"></span></h1></p>
                              <p class="sub-header"><h1>owner:@fusheng_ink<span id="domainName"></span></h1></p>
                 <br>
-                ::CAPTCHA_BOX::
+                <div class="cf-captcha">::CAPTCHA_BOX::</div>
                 <br>
 
                 <p class="highlight">为什么我要进行验证？</p>
@@ -691,13 +691,7 @@
         <div class="relative pb-full md:flex md:pb-0 md:min-h-screen w-full md:w-1/2 right-sec">
         </div>
     </div>
-    <script>
-        var now = new Date();
-        var hour = now.getHours();
-        if(hour<8 || hour>20){
-            document.write("<style>.left-sec {filter: invert(85%);}</style>");
-        }
-    </script>
-
+    <script>var now=new Date,hour=now.getHours();(hour<8||hour>20)&&document.write("<style>.left-sec {filter: invert(85%);}</style>");</script>
+    <script>var now=new Date,hour=now.getHours();(hour<8||hour>20)&&document.write("<style>.cf-captcha {filter: invert(85%);}</style>");</script>
 
 </body></html>
