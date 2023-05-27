@@ -687,13 +687,7 @@
         <div class="relative pb-full md:flex md:pb-0 md:min-h-screen w-full md:w-1/2 right-sec">
         </div>
     </div>
-    <script>
-        var now = new Date();
-        var hour = now.getHours();
-        if(hour<8 || hour>20){
-            document.write("<style>.left-sec {filter: invert(85%);}</style>");
-        }
-    </script>
-
+    <script>var now=new Date,hour=now.getHours();(hour<8||hour>20)&&document.write("<style>.left-sec {filter: invert(85%);}</style>");</script>
+    <script>var now=new Date,hour=now.getHours();(hour<8||hour>20)&&document.write("<style>.cf-captcha {filter: invert(85%);}</style>");</script>
 
 </body></html>
