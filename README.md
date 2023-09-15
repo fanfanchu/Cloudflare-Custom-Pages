@@ -12,7 +12,12 @@ Cloudflare Pro 可用的 自定义页面
 
 [效果展示](https://blog.000714.xyz/202012/3041.html)
 
+## 我做了什么
+[+]添加了新的方案
+[+]让浏览器脚本不能直接穿盾
+
 作者：@BlueSkyXN
+二开：@fusheng_ink
 
 主页：https://000714.xyz
 
