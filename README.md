@@ -7,6 +7,7 @@ Cloudflare Pro 可用的 自定义页面
 1. Fork 此仓库
 2. 修改联系方式
 3. 使用 GitHub 直链即可（RAW）
+4. 一些说明：captcha.html 最原始的验证码，captcha_hd.html 增加点击验证的验证码，waf_dianji.html 能用长按验证的验证码
 
 ## 关于
 
